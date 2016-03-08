@@ -1,0 +1,14 @@
+Started GET "/" for 127.0.0.1 at 2016-03-08 13:40:37 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 941ms (Views: 922.3ms)
+Started GET "/assets/application-d6e55a153f75d2a7836c30b1bcf071a07bf77aeed1c42231defe53f8b8f52623.js" for 127.0.0.1 at 2016-03-08 13:40:38 -0500
+Started GET "/assets/application-1482127915972679f5c1b518d2f511fbdb39ae60d5b2e84601d57068df3b19c2.css" for 127.0.0.1 at 2016-03-08 13:40:38 -0500
+Started GET "/" for 127.0.0.1 at 2016-03-08 13:40:38 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms)
+Started GET "/" for 127.0.0.1 at 2016-03-08 13:40:38 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.7ms)
