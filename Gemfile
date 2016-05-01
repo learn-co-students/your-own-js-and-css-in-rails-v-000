@@ -35,7 +35,6 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
-  gem 'selenium-webdriver'
 end
 
 group :development do
