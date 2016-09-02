@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'chromedriver-helper'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
 # Use SCSS for stylesheets
@@ -35,7 +35,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver' , '~> 2.53.0' 
 end
 
 group :development do
