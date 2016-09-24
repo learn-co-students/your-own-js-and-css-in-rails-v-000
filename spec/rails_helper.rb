@@ -7,6 +7,11 @@ require 'spec_helper'
 require 'rspec/rails'
 require 'capybara/rails'
 require 'capybara/rspec'
+Capybara.register_driver :chrome do |app|
+  Capybara::Selenium::Driver.new(app, :browser => :chrome)
+end
+
+Capybara.javascript_driver = :chrome
 
 # Add additional requires below this line. Rails is not loaded until this point!
 
