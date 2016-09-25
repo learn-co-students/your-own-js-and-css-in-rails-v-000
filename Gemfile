@@ -34,6 +34,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'rspec-rails', '~> 3.0'
+  gem 'poltergeist'
   gem 'capybara'
   gem 'selenium-webdriver', '~> 2.53.0'
 end
