@@ -4,11 +4,21 @@
   <title>Application Layout</title>
   <%= csrf_meta_tags %>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag "application" %>
 </head>
 <body class="cool-background">
+  <script>
+
+
+  $(document).ready(function() {
+    $('#hide_this').click(function() {
+      $(this).hide();
+    });
+  })
+  </script>
 
 <%= yield %>
-<%= javascript_include_tag "application" %>
+
 
 
 </body>
