@@ -6,5 +6,5 @@ function hideWhenClicked() {
 }
 
 $(document).ready(function() {
-  hideWhenClicked;
+  hideWhenClicked();
 })
