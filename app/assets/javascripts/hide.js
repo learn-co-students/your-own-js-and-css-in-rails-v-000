@@ -1,15 +1,10 @@
-// $(document).ready(function(){
-//
-//   console.log('I am ready')
-//
-//   // var el = $("#hide_this")[0]
-//   // // debugger
-//   hideWhenClicked.bind(this)
-//
-// })
+$(document).ready(function(){
+  $("#hide_this").click(hideWhenClicked)
+})
 
-
-function hideWhenClicked(){
-  console.log(this)
-  this.hide()
+function hideWhenClicked(e){
+  e.toElement.style.display = "none";
+  // console.log($(this))
+  // console.log(e.toElement)
+  // $(this).toEventhide()
 }
