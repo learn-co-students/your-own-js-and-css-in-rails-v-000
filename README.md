@@ -18,8 +18,10 @@ First add the following JS:
 Next add the following CSS:
 
 - In `/app/assets/stylesheets/` create the file `links.css`
-- Create a CSS class called `.error` that changes the color of the text to red. Add this CSS class to the link on the root page.
-- Create another CSS class called `.cool-background` that makes the background `grey`. Add this CSS class to the `<body>` tag on the application layout.
+- Create a CSS class called `.error` that changes the color of the text to red. 
+- Add this CSS class to the link on the root page.
+- Create another CSS class called `.cool-background` that makes the background 
+- `grey`. Add this CSS class to the `<body>` tag on the application layout.
 - Add `links.css` to your CSS manifest.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/your-own-js-and-css-in-rails' title='Your Own Js And Css In Rails'>Your Own Js And Css In Rails</a> on Learn.co and start learning to code for free.</p>
