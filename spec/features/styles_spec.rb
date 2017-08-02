@@ -1,4 +1,3 @@
-require 'rails_helper'
 
 feature "Page Styles" do
   scenario "'Click To Hide Me' link has error CSS class" do
