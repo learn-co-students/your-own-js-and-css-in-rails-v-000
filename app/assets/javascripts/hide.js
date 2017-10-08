@@ -1,5 +1,5 @@
 function hideWhenClicked(event) {
-  let $target = $(event.target)
+  const $target = $(event.target)
   $target.hide()
 
 }
