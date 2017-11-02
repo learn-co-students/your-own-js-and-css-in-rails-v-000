@@ -1,0 +1,14 @@
+/*
+Create a CSS class called .error that changes the color of the text to red. 
+Add this CSS class to the link on the root page.
+Create another CSS class called .cool-background that makes the background grey. 
+Add this CSS class to the <body> tag on the application layout.
+*/
+
+.error {
+  color: red;
+}
+
+.cool-background {
+  background: grey;
+}
