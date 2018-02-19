@@ -1,4 +1,4 @@
-const hideWhenClicked = (event) =>{
+function hideWhenClicked(event) {
   $(event.target).hide()
 }
 
