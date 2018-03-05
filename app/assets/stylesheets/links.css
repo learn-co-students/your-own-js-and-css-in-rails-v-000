@@ -1,0 +1,21 @@
+.error {
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  span {
+    color: #ff1a1a;
+    text-decoration: underline;
+  }
+}
+
+.cool-background {
+  a {
+    color: grey;
+    text-decoration: none;
+  }
+  span {
+    color: #808080;
+    text-decoration: none;
+  }
+}
