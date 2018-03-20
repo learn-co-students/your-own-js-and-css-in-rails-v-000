@@ -1,4 +1,4 @@
-function hideWhenClicked(event) {
+function hideWhenClicked(link) {
   var $target = $(event.target);
   $target.hide();
 }
