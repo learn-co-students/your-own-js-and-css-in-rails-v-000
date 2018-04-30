@@ -1,0 +1,9 @@
+.error {
+	/*changes text color to red*/
+	color: red;
+}
+
+.cool-background {
+	/*makes background grey, inserts in <body>*/
+	background-color: #f0f0f0;
+}
