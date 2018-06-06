@@ -1,6 +1,6 @@
-function hideWhenClicked(feature) {
-  const $target = $(feature.target);
-  $target.hide();
-}
+document.getElementById('hide_this')
+  .addEventListener('click', hideWhenClicked)
 
-$('#hide_this').click(hideWhenClicked);
+function hideWhenClicked(feature) {
+  document.getElementById('hide_this').style.display = 'none';
+}
