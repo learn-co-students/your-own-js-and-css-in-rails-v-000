@@ -36,7 +36,9 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
   gem 'selenium-webdriver'
+  gem 'phantomjs', :require => 'phantomjs/poltergeist'
   gem 'poltergeist'
+  gem 'puma'
 end
 
 group :development do
