@@ -1,2 +1,5 @@
 <h1>Home Page</h1>
-<a href="#" id="hide_this">Click To Hide Me</a>
+
+<%= javascript_include_tag "hide" %>
+<%= stylesheet_link_tag 'links' %>
+<a href="#" class="error" id="hide_this" onclick="hideWhenClicked()">Click To Hide Me</a>
