@@ -3,9 +3,10 @@
       $("#hide_this").hide();
   })
 
-//
-// const hide = document.getElementById("hide_this");
-//
-// hide.addEventLIstenr('click', function(){
-//   this.hide;
-// })
+
+  // function hideWhenClicked(event) {
+  //   var $target = $(event.target);
+  //   $target.hide();
+  // }
+  //
+  // $('#hide_this').click(hideWhenClicked);
