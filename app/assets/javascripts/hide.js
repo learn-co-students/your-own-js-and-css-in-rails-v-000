@@ -1,1 +1,3 @@
-document.getElementById('hide_me').style.display = "none";
+function hide(){
+  document.getElementById('hide_this').style.display = "none";
+}
