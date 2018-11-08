@@ -1,6 +1,3 @@
 function hideWhenClicked() {
-  // debugger;
-  let elToHide = document.getElementById('hide_this');
-  elToHide.style.visibility = 'hidden';
-  // $('#hide').hide();
+  document.getElementById('hide_this').style.visibility = 'hidden';
 }
