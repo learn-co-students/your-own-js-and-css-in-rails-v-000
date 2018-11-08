@@ -1,4 +1,6 @@
 function hideWhenClicked() {
-  let elToHIde = document.getElementById('hide_this');
-  elToHIde.style.display = 'none';
+  // debugger;
+  let elToHide = document.getElementById('hide_this');
+  elToHide.style.visibility = 'hidden';
+  // $('#hide').hide();
 }

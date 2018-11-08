@@ -11,5 +11,5 @@
 // about supported directives.
 //
 //= require jquery
-//= require hide.js
+//= require hide
 
