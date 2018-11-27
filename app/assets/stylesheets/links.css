@@ -2,6 +2,7 @@ a.error {
     color: red;
 }
 
-body.cool-background {
+<body> cool-background {
   background-color: grey;
 }
+</body>
