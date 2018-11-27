@@ -1,7 +1,7 @@
-a.error {
+page.a.error {
     color: red;
 }
 
-application.body.cool-background {
+page.body.cool-background {
   background-color: grey;
 }
