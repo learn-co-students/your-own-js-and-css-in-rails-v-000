@@ -1,10 +1,5 @@
 function hideWhenClicked () {
-    var x = document.getElementById('hide_this');
-    if (x.style.visibility === 'hidden') {
-      x.style.visibility = 'visible';
-    } else {
-      x.style.visibility = 'hidden';
-    }
+    var x = document.getElementById('hide_this').style.visibility = 'hidden';
 }
 
 // function myFunction() {
