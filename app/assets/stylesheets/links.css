@@ -1,0 +1,12 @@
+
+.error {
+	color: red;
+}
+
+.cool-background {
+	background-color: grey;
+}
+
+#hide_this {
+	display: hide;
+}
