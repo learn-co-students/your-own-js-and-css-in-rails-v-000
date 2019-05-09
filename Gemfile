@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'puma'
 gem 'rails'
 gem 'sqlite3', '~> 1.3.6'
 # Use SCSS for stylesheets
