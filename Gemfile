@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
+# gem 'poltergeist', '~> 1.5.1'
+gem 'phantomjs', :require => 'phantomjs/poltergeist'
 
+gem 'puma'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 gem 'sqlite3', '~> 1.3.6'
