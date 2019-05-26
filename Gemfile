@@ -38,6 +38,8 @@ group :development, :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'poltergeist'
+  #gem 'phantomjs', :require => 'phantomjs/poltergeist'
+  gem 'puma'
 end
 
 group :development do
