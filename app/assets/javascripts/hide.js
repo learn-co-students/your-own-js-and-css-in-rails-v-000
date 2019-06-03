@@ -1,5 +1,8 @@
-function hideWhenClicked(el) {
-  el.addEventListener(click, function{
-    this.style.display = "none";
-  })
+
+
+function hideWhenClicked(event) {
+  var $target = $(event.target);
+  $target.hide();
 }
+
+$('#hide_this').click(hideWhenClicked);
