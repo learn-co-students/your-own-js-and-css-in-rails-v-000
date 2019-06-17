@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 
+gem 'puma'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 gem 'sqlite3', '~> 1.3.6'
@@ -38,6 +39,7 @@ group :development, :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'poltergeist'
+  gem 'phantomjs', :require => 'phantomjs/poltergeist'
 end
 
 group :development do
