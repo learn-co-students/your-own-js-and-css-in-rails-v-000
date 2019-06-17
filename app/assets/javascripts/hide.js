@@ -1,7 +1,6 @@
-var link = document.getElementById('hide_this');
-
-function hideWhenClicked() {
-  link.style.display = "none"
+function hideWhenClicked(event) {
+  var $target = $(event.target);
+  $target.hide();
 }
 
-link.addEventListener("click", hiddenWhenClicked);
+$('#hide_this').click(hideWhenClicked);
