@@ -1,7 +1,5 @@
-function hideWhenClicked ()
-  var hideMe = $( "#hide_this" );
-  debugger
-  return hideMe.addEventListener("click", function() {
-      hideMe.hide().bind(hideMe)
-  })
+function hideWhenClicked() {
+  var el = $("#hide_this")
+  console.log(el[0])
+  el[0].hidden = true
 }
