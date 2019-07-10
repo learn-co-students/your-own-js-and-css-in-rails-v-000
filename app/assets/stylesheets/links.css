@@ -1,47 +1,11 @@
-/*
-* Create a CSS class called .error that changes the color of the text to red. 
-*Add this CSS class to the link on the root page.
 .error {
     a {
-      color: red;
+        color: #FF0000
     }
-}   
-
-.error {
-    a {
-        color: red;
-    }
-
-    span {
-        color: #ff1a1a;
-    }
-
-} 
-
-.error a {
-    color: red;
-}
-
-.error a {
-    color: red;
-    text: "Click To Hide Me";
-}
-
-*Create another CSS class called .cool-background that makes the background grey. 
-*Add this CSS class to the <body> tag on the application layout.
-*Add links.css to your CSS manifest.
-*/
-
-.error {
-    a {
-        color: red;
-    }
-
 }  
 
 
-.cool-background {
-    a {
-        color: grey;
-    }
+body.cool-background {
+    background-color:#808080; 
+   
 }
