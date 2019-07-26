@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'puma', '~> 3.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 gem 'sqlite3', '~> 1.3.6'
