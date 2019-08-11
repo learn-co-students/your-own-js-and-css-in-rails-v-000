@@ -11,4 +11,8 @@
  * file per style scope.
  *
  *= require_self
+ *= require jquery-addon
+ *= require bootstrap-addon
+ *= require links
+ *= require hidden_styles
  */
