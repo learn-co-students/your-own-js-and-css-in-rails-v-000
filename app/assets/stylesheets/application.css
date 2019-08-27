@@ -11,4 +11,16 @@
  * file per style scope.
  *
  *= require_self
- */
+
+ *= require hide
+ *= require links
+*/
+
+ .error {
+   color: red;
+ }
+
+
+.cool-background{
+   background-color: grey;
+}
