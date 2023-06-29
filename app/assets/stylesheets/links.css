@@ -1,0 +1,8 @@
+a #hide_this {
+  display: block;
+  color: red;
+}
+
+body .cool-background{
+  background-color: red;
+}
