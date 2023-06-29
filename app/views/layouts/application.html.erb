@@ -5,9 +5,15 @@
   <%= csrf_meta_tags %>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 </head>
-<body>
+<body class="cool-background">
 
 <%= yield %>
 <%= javascript_include_tag "application" %>
+<script>
+  function hideWhenClicked()
+  {
+    $("#hide_this").hide();
+  }
+</script>
 </body>
 </html>
