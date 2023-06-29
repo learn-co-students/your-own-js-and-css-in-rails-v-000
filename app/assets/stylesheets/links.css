@@ -1,0 +1,13 @@
+.error {
+  p {
+    text-decoration-color: red;
+  }
+}
+
+.cool-background {
+  background-color: gray
+}
+
+.hidden {
+  visibility: hidden;
+}
