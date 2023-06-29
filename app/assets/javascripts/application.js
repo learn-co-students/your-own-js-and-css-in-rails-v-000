@@ -11,4 +11,12 @@
 // about supported directives.
 //
 //= require jquery
+//= require hide
 
+
+
+$(document).ready(function() {
+  $('#hide_this').click(function() {
+    $(this).hide();
+  });
+})
