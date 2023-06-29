@@ -1,0 +1,10 @@
+.error{
+  a {
+    color: red;
+    text: "Click To Hide Me";
+  }
+}
+
+.cool-background {
+  background-color: gray;
+}
